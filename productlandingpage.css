@@ -1,0 +1,109 @@
+* {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+}
+
+header{
+    z-index: 1;
+    display: flex;
+    background-color: rgb(226, 223, 223);
+    box-shadow: 2px 2px 2px 1px rgb(148, 146, 146);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3em;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+
+.nav-link  {
+    display: inline-block;
+    width: fit-content;
+    padding-right: 3em;
+    color: rgb(17, 16, 16);
+   
+}
+
+#header-img {
+    height: 3em;
+}
+main {
+    position: relative;
+    top: 3em;
+    text-align: center;
+}
+h1 {
+    font-size: 2.65em;
+    color: rgb(226, 150, 150);
+}
+.comicbox {
+    display: flex;
+    justify-content: center;
+}
+.h2 {
+   
+    width: 22em;
+    text-align: left;
+    
+}
+.h2 h2 {
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 1.4em;
+    
+
+}
+.comicimage img{
+    
+    width: 27em;
+    padding-top: 2em;
+}
+
+.videocontainer {
+    margin-bottom: 3em;
+}
+.products {
+    display: flex;
+    justify-content: center;
+}
+.encyclopedia,
+.dvd,
+.tshirt{
+    width: 20em;
+    margin: 5em 2em 5em 2em;
+    border: black 1px solid;
+}
+
+.level{
+    background-color: rgb(226, 223, 223);
+    box-shadow: 2px 2px 2px 1px rgb(148, 146, 146);
+    padding: 1em;
+}
+.list {
+    text-align: left;
+    list-style: square;
+}
+.list li {
+    padding: .3em 0 .3em 0;
+}
+.orderbutton{
+    margin-bottom: 1em;
+    background-color: rgb(235, 112, 112);
+    border-radius: .3em;
+}
+form div {
+    padding: 20px 10px 0 10px;
+}
+#form {
+    margin-bottom: 5em;
+}
+@media (max-width: 600px) {
+.videocontainer{
+    max-width: 100%;
+    height: auto;
+}
+}
